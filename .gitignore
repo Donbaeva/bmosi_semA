@@ -480,3 +480,8 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Arena: хранить только модели .doe
+Arena/*
+!Arena/*.doe
+Arena/*.Backup.doe
